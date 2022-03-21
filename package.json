@@ -1,0 +1,9 @@
+{
+  "name": "DDABot",
+  "version": "1.0.0",
+  "description": "Discord bot for the DDA",
+  "main": "index.js",
+  "repository": "https://github.com/scrimmie/DDABot",
+  "author": "scrimmie <drdapice@comcast.net>",
+  "license": "MIT"
+}
