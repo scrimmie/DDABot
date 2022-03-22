@@ -7,7 +7,9 @@
   "author": "scrimmie <drdapice@comcast.net>",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^13.6.0"
+    "axios": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
   },
   "scripts": {
     "start": "ts-node src/index.ts"
