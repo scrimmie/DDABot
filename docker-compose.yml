@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  app:
+    build: .
+    volumes:
+      - '.:/app'
+    ports:
+      - '3000:8080'
+    environment:
+      - NODE_ENV=development
+  
+  mongodb_container:
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${DB_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+volumes:
+  mongodb_data_container:

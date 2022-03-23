@@ -1,5 +1,4 @@
 import { Command } from "./Command";
-import { Hello } from "./commands/Hello";
-import { Cardano } from "./commands/Cardano";
+import * as commands from './commands/index';
 
-export const Commands: Command[] = [Hello, Cardano];
+export const Commands: Command[] = [commands.Hello, commands.Cardano, commands.Loopring];

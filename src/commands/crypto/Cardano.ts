@@ -1,5 +1,5 @@
 import { BaseCommandInteraction, Client } from "discord.js";
-import { Command } from "../Command";
+import { Command } from "../../Command";
 var axios = require('axios');
 
 var config = {

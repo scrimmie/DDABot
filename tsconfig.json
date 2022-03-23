@@ -16,7 +16,8 @@
     "removeComments": true,
     "typeRoots": ["node_modules/@types"],
     "sourceMap": false,
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true
   },
   "files": ["src/index.ts"],
   "include": ["./**/*.ts"],
